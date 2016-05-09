@@ -15,7 +15,10 @@
 $(call inherit-product, device/motorola/lux/full_lux.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/xosp/config/nfc_enhanced.mk)
+
+# Inherit some propietary XOSP stuff
+$(call inherit-product, vendor/xosp/config/xosp.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
@@ -23,7 +26,7 @@ TARGET_SCREEN_HEIGHT := 1920
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := lux
-PRODUCT_NAME := cm_lux
+PRODUCT_NAME := xosp_lux
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := lux
