@@ -28,5 +28,8 @@ PRODUCT_RELEASE_NAME := lux
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto X Play"
 
+# Root method
+ROOT_METHOD := magisk
+
 # XOSP release type, remove it if you're making an unofficial build
 RELEASE_TYPE := XOSP_OFFICIAL
