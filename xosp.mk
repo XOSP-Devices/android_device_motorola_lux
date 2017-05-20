@@ -31,5 +31,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Root method
 ROOT_METHOD := magisk
 
+# Browser
+USE_CHROMIUM := true
+
 # XOSP release type, remove it if you're making an unofficial build
 RELEASE_TYPE := XOSP_OFFICIAL
